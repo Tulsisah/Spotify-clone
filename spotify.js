@@ -1,3 +1,4 @@
+// this is only for practice. the main file is "spotify_c.js"
 console.log("welcome to spotify");
 let songIndex = 0;
 let audioElement = new Audio('1.mp3');
@@ -97,4 +98,5 @@ document.getElementById('previous').addEventListener('click', ()=> {
      masterplay.classList.remove('fa-circle-play');
      masterplay.classList.add('fa-pause-circle');
 })
+
 
